@@ -15,9 +15,9 @@ const Terminal = () => {
   }, [output]);
 
   return (
-    <div className="min-h-screen bg-terminal-bg text-terminal-green font-mono p-4">
-      <div className="max-w-4xl mx-auto">
-        <div className="bg-terminal-bg border border-terminal-green-dim rounded-lg shadow-2xl">
+    <div className="min-h-screen bg-terminal-bg text-terminal-green font-mono md:p-4">
+      <div className="max-w-6xl mx-auto">
+        <div className="bg-terminal-bg  border border-terminal-green-dim md:rounded-lg shadow-2xl">
           {/* Terminal Header */}
           <div className="flex items-center justify-between px-4 py-2 bg-terminal-green-dim bg-opacity-10 border-b border-terminal-green-dim">
             <div className="flex space-x-2">
@@ -32,7 +32,7 @@ const Terminal = () => {
           {/* Terminal Content */}
           <div 
             ref={terminalRef}
-            className="h-[70vh] overflow-y-auto p-4 scroll-smooth"
+            className="h-screen md:h-[90vh] overflow-y-auto p-4 scroll-smooth"
           >
             <TerminalOutput output={output} />
             <TerminalInput onCommand={executeCommand} isProcessing={isProcessing} />

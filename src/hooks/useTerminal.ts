@@ -175,7 +175,8 @@ const CONTACT_TEXT = `
 
 export const useTerminal = () => {
   const [output, setOutput] = useState<TerminalLine[]>([
-    { type: 'output', content: WELCOME_MESSAGE }
+    { type: 'output', content: WELCOME_MESSAGE },
+    {type: "output", content: HELP_TEXT}
   ]);
   const [isProcessing, setIsProcessing] = useState(false);
 
