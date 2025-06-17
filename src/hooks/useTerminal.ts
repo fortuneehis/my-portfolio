@@ -47,7 +47,7 @@ const ABOUT_TEXT = `
 │  🚀 Backend Developer with 4+ years of experience           │
 │  🏗️  Specialized in scalable system architecture            │
 │  ☁️  Cloud infrastructure enthusiast (AWS, GCP)             │
-│  🐍 Python & Node.js expert                                 │
+│  🐍  NodeJS, JavaScript/Typescript, Go                      │
 │  🗄️  Database optimization wizard                           │
 │                                                             │
 │  📍 Based in Lagos State, NG                                │
