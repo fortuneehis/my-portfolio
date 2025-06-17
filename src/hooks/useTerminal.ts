@@ -25,7 +25,6 @@ Available Commands:
   projects   List recent projects and contributions  
   experience Show work experience and career history
   contact    Get contact information
-  resume     Download resume (PDF)
   clear      Clear the terminal screen
   help       Show this help message
   whoami     Display current user info
@@ -208,15 +207,6 @@ export const useTerminal = () => {
       case 'contact':
         response = CONTACT_TEXT;
         break;
-      case 'resume':
-        response = `
-📄 Resume download initiated...
-   
-   Unfortunately, this is a demo portfolio so there's no actual PDF to download.
-   In a real portfolio, this would trigger a download of the resume file.
-   
-   For now, you can use the 'experience' command to see work history!`;
-        break;
       case 'clear':
         setOutput([]);
         setIsProcessing(false);
@@ -228,7 +218,7 @@ export const useTerminal = () => {
         response = '/home/fortune/portfolio';
         break;
       case 'ls':
-        response = `about.txt  skills.txt  projects.txt  experience.txt  contact.txt  resume.pdf`;
+        response = `about.txt  skills.txt  projects.txt  experience.txt  contact.txt`;
         break;
       case 'date':
         response = new Date().toString();
