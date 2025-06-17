@@ -110,6 +110,17 @@ const PROJECTS_TEXT = `
 │     • Simplified environment switching with fallback        │
 │       logic and override priority.                          │
 │     • Tech: TypeScript, NodeJS                              │
+│                                                             │     
+│     XWire – Simple Banking Backend API                      │   
+│     GitHub: github.com/fortuneehis/xwire                    │
+│     • Implemented user authentication (register, login,     │   
+│       logout, get user info) with secure session management │
+│     • Developed wallet operations: view balance,            │  
+│       deposit, withdraw, and peer-to-peer transfers         │
+│     • Added transaction history tracking with efficient     │
+│       database queries and pagination                       │
+│     • Secured the API with CORS, Helmet, input validation,  │
+│       and structured error handling                         │
 │                                                             │
 │  🔐 use-responsive-lib – React Hook for Responsive Design   │
 │     GitHub: github.com/fortuneehis/use-responsive           │
